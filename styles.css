@@ -1,0 +1,27 @@
+header {
+  border-image: "assets/lab-assets/hr-img.png";
+  border-width: 100%;
+}
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  display: inline-block;
+}
+.logos2 {
+  float: right;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.ingredients {
+  justify-content: center;
+}
+.ingredients ul {
+  padding-left: 100px;
+  float: left;
+  list-style-type: square;
+  justify-content: center;
+}
