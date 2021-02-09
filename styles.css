@@ -1,7 +1,45 @@
-header {
-  border-image: "assets/lab-assets/hr-img.png";
-  border-width: 100%;
+body {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
+header {
+  width: 70%;
+}
+
+#forkknife {
+  width: 70px;
+  height: 70px;
+}
+#bottom-logo-text {
+  font-family: cursive;
+  font-size: large;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.logo > h1 {
+  font-family: cursive;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#border {
+  background-image: url("assets/lab-assets/hr-img.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+header {
+  /*border-bottom: 15px solid transparent;
+  border-image-source: "/assets/lab-assets/hr-img.png";
+  border-width: 80%;*/
+  border-width: 20px;
+  border-bottom: solid transparent;
+  border-image-source: url("assets/lab-assets/hr-img.png");
+  border-image-repeat: repeat;
+  width: 100%;
+}
+
 body {
   padding-left: 20px;
   padding-right: 20px;
@@ -16,12 +54,59 @@ body {
   display: inline-block;
 }
 
+#cookie-pizza-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.logo-chocolate-pizza {
+  display: inline-block;
+  margin-top: 50px;
+}
+.logo-chocolate-pizza > h1 {
+  font-family: Arial;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+.logo-chocolate-pizza > p {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .ingredients {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  min-height: 150px;
+  width: 100%;
   justify-content: center;
+  background-image: url("assets/lab-assets/list-bg.png");
 }
 .ingredients ul {
-  padding-left: 100px;
+  padding-left: 150px;
   float: left;
   list-style-type: square;
   justify-content: center;
+}
+
+.van-section {
+  display: inline-block;
+}
+
+.button {
+  color: white;
+  border: none;
+  background-color: rgb(202, 131, 0);
+  float: right;
+  margin-top: 10px;
+  display: inline-block;
+}
+footer {
+  height: 200px;
 }
