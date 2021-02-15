@@ -1,3 +1,4 @@
+
 body {
   width: 70%;
   margin-left: auto;
@@ -38,16 +39,40 @@ header {
   border-image-source: url("assets/lab-assets/hr-img.png");
   border-image-repeat: repeat;
   width: 100%;
+
 }
 
 body {
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  margin-right: 25%;
+  margin-left: 25%;
+}
+/* 
+.logo::first-line{
+  font-size:x-large;
+  color: yellowgreen;
+} */
+
+.logo p::first-line {
+  font-size: xx-large;
+  font-family: 'Euphoria Script', cursive;
+  font-family: 'Great Vibes', cursive;
+}
+
+.pizza p::first-line {
+  font-size: xxx-large;
+  font-family: fantasy;
+}
+
+.text p::first-line {
+  text-indent: 20px;
 }
 
 .logo {
   display: inline-block;
 }
+
 .logos2 {
   float: right;
   margin-top: 10px;
@@ -86,6 +111,7 @@ body {
   min-height: 150px;
   width: 100%;
   justify-content: center;
+
   background-image: url("assets/lab-assets/list-bg.png");
 }
 .ingredients ul {
@@ -110,3 +136,4 @@ body {
 footer {
   height: 200px;
 }
+
